@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SahabatExplore - Kontak</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">SE</span>
+        <span class="logo-text">SahabatExplore</span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Beranda</a>
+        <a href="destinations.html" class="nav-link">Destinasi</a>
+        <a href="about.html" class="nav-link">Tentang</a>
+        <a href="gallery.html" class="nav-link">Galeri</a>
+        <a href="contact.html" class="nav-link nav-link--primary nav-link--active">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Hubungi Kami</h1>
+        <p>
+          Punya pertanyaan, ingin konsultasi rencana perjalanan, atau ingin kerja sama? Kirim pesanmu melalui form di bawah ini.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid grid-2 align-start">
+        <div>
+          <form class="card form-card">
+            <h2>Kirim Pesan</h2>
+            <div class="form-group">
+              <label for="name">Nama Lengkap</label>
+              <input type="text" id="name" name="name" placeholder="Tulis namamu di sini" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Alamat Email</label>
+              <input type="email" id="email" name="email" placeholder="contoh: kamu@email.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="topic">Topik</label>
+              <select id="topic" name="topic">
+                <option value="">Pilih topik</option>
+                <option value="konsultasi">Konsultasi perjalanan</option>
+                <option value="kerjasama">Kerja sama / partnership</option>
+                <option value="media">Media & publikasi</option>
+                <option value="lainnya">Lainnya</option>
+              </select>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="destination">Destinasi (opsional)</label>
+                <input type="text" id="destination" name="destination" placeholder="Contoh: Bali, Labuan Bajo">
+              </div>
+              <div class="form-group">
+                <label for="travelers">Jumlah Traveler</label>
+                <input type="number" id="travelers" name="travelers" min="1" placeholder="2">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Pesan</label>
+              <textarea id="message" name="message" rows="5" placeholder="Ceritakan kebutuhan perjalananmu..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full">Kirim Pesan</button>
+            <p class="form-note">
+              *Form ini hanya contoh statis (tidak benar-benar mengirim data).
+            </p>
+          </form>
+        </div>
+
+        <div>
+          <div class="info-box">
+            <h3>Informasi Kontak</h3>
+            <ul class="meta-list">
+              <li><strong>Email:</strong> hello@SahabatExplore.id</li>
+              <li><strong>WhatsApp:</strong> +62 812-3456-7890</li>
+              <li><strong>Alamat:</strong> Jakarta, Indonesia</li>
+              <li><strong>Jam Operasional:</strong> Senin – Jumat, 09.00 – 17.00 WIB</li>
+            </ul>
+          </div>
+
+          <div class="info-box">
+            <h3>Butuh ide itinerary?</h3>
+            <p>
+              Jelaskan durasi perjalanan, budget, dan gaya traveling-mu. Tim kami akan kirimkan rekomendasi itinerary yang cocok.
+            </p>
+          </div>
+
+          <div class="info-box">
+            <h3>Kerja Sama</h3>
+            <p>
+              Kami terbuka untuk kolaborasi dengan:
+            </p>
+            <ul class="feature-list">
+              <li>Hotel & penginapan lokal</li>
+              <li>Travel agent & tour guide</li>
+              <li>Brand yang relevan dengan traveling</li>
+              <li>Komunitas dan event pariwisata</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <div class="footer-logo">
+          <span class="logo-mark">EN</span>
+          <span class="logo-text">SahabatExplore</span>
+        </div>
+        <p class="footer-text">
+          Yuk ngobrol, siapa tahu liburanmu berawal dari sini.
+        </p>
+      </div>
+      <div class="footer-columns">
+        <div>
+          <h4>Menu</h4>
+          <a href="index.html">Beranda</a>
+          <a href="destinations.html">Destinasi</a>
+          <a href="gallery.html">Galeri</a>
+          <a href="contact.html">Kontak</a>
+        </div>
+        <div>
+          <h4>Sosial</h4>
+          <a href="#">Instagram</a>
+          <a href="#">TikTok</a>
+          <a href="#">YouTube</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 SahabatExplore.</span>
+    </div>
+  </footer>
+</body>
+</html>
