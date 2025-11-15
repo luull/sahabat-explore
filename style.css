@@ -311,7 +311,7 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("https:/images.pexels.com/photos/2422254/pexels-photo-2422254.jpeg");
+  background-image: url("./images/bromo.jpg");
   background-size: cover;
   background-position: center;
   opacity: 0.18;
