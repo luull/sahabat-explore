@@ -14,7 +14,7 @@
   --color-bg-alt: #0c1023;
   --color-surface: #10152b;
   --color-surface-soft: #151b35;
-  --color-accent: #ffb347; /* keemasan hangat */
+  --color-accent: #ffb347; 
   --color-accent-soft: rgba(255, 179, 71, 0.15);
   --color-accent-strong: #ff8a00;
   --color-border: rgba(255, 255, 255, 0.06);
@@ -209,7 +209,7 @@ body {
   background: linear-gradient(135deg, var(--color-accent), var(--color-accent-strong));
   color: #1b1205;
   font-weight: 600;
-  box-shadow: 0 12px 30px rgba(255, 179, 71, 0.5);
+  /* box-shadow: 0 12px 30px rgba(255, 179, 71, 0.5); */
 }
 
 .nav-link--primary:hover {
@@ -481,7 +481,7 @@ body {
 .btn-primary {
   background: linear-gradient(135deg, var(--color-accent), var(--color-accent-strong));
   color: #1b1205;
-  box-shadow: 0 14px 32px rgba(255, 179, 71, 0.6);
+  /* box-shadow: 0 14px 32px rgba(255, 179, 71, 0.6); */
 }
 
 .btn-primary:hover {
